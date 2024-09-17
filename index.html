@@ -1,42 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
-  <link rel="icon" href="https://raw.githubusercontent.com/Nah-Null/MyFirstPage/main/software-developer.png">
-  <style>
-    .content {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-    }
-    img {
-      width: 350px;
-    }
-    p {
-      text-align: justify;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเว็บของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Error!</h1>
-  <em>ไอ้สัสกูบอกอยู่ว่าError!!!</em><br>
-  <hr>
-  
-  <div class="content">
-    <img src="https://raw.githubusercontent.com/Nah-Null/Gallery/a3b4665c1821e40ddfdabab0682b0ee8ddcd4546/49762.jpg" alt="รูปโง่ๆอย่าสนใจ">
-    
-    <div><br /><br /><br />
-      ชื่อจริง:นาย อมรภูวิชญ์ ฐิตภัทรพงศ์<br />
-      ชื่อเล่น:ภู<br />
-      อายุ:19<bt />
-      คณะ:วิศวกรรมศาสตร์<br />
-      สาขา:ดิจิตอลเทคโนโลยีและสารสนเทศ<br />
-      สถาบันการจัดการปัญญาภิวัฒน์ <br />
-      <img src="https://media.tenor.com/dutdoOw7PjsAAAAj/happy-cat.gif" alt="รูปโง่ๆอย่าสนใจ" width="5" height="100">
+    <div class="container">
+        <h1>ข้อมูลส่วนตัว</h1>
+
+        <div class="section">
+            <h2>ชื่อ นามสกุล</h2>
+            <p>นายอมรภูวิชญื ฐิตภัทรพงศ์</p>
+        </div>
+
+        <div class="section">
+            <h2>ชื่อเล่น</h2>
+            <p>ภู</p>
+        </div>
+
+        <div class="section">
+            <h2>สาขาวิชา</h2>
+            <p>เทคโนโลยีดิจิตอลและสารสนเทศ</p>
+        </div>
+
+        <div class="section">
+            <h2>กลุ่มเรียน (section)</h2>
+            <p>กลุ่ม B</p>
+        </div>
+
+        <div class="section">
+            <h2>รูปตนเอง</h2>
+            <img src="https://github.com/Nah-Null/Gallery/blob/main/49762.jpg?raw=true" alt="รูปตนเอง" class="profile-image">
+        </div>
+
+        <div class="section">
+            <h2>เหตุผลที่อยากเรียน Full stack web development</h2>
+            <p>สนใจในการพัฒนาเว็บและต้องการสร้างเว็บไซต์ที่ครบวงจร ซึ่งสามารถจัดการทั้งด้าน Frontend และ Backend ได้อย่างมีประสิทธิภาพ</p>
+        </div>
+
+        <div class="section">
+            <h2>ความคาดหวังต่อวิชานี้</h2>
+            <p>หวังว่าจะได้รับความรู้ที่ลึกซึ้งเกี่ยวกับการพัฒนาเว็บไซต์ในทุกด้าน และสามารถนำความรู้นั้นไปใช้ในการสร้างโปรเจคจริงได้</p>
+        </div>
+
+        <div class="section">
+            <h2>อะไรจุดอ่อน ที่ตนเองต้องพัฒนาเกี่ยวกับทักษะ Programming และ แนวทางการพัฒนา</h2>
+            <p>จุดอ่อนของฉันคือการจัดการกับฐานข้อมูลและการเขียนโค้ดที่มีประสิทธิภาพ โดยฉันต้องการฝึกฝนเพิ่มเติมในด้านนี้</p>
+        </div>
+
+        <div class="section">
+            <h2>Link ไปยังหน้า Website ที่ตนเองชื่นชอบ หรือ ได้รับแรงบันดาลใจ</h2>
+            <p><a href="https://www.example.com" target="_blank">เว็บไซต์ที่ฉันชื่นชอบ</a></p>
+        </div>
+
+        <div class="section">
+            <h2>รูปภาพที่น่าสนใจ</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*hKRcRgikQ2l2E1jlFtMkZA.jpeg" alt="รูปภาพที่น่าสนใจ">
+        </div>
     </div>
-  </div>
 </body>
 </html>
